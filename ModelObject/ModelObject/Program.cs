@@ -16,7 +16,7 @@ namespace ModelObject
 
         static void Main(string[] args)
         {
-
+	    //Проверка "если не ночь"
             if (date.ToLongTimeString().CompareTo(timeTwelve.ToLongTimeString()) < 0 &&
                 date.ToLongTimeString().CompareTo(timeSix.ToLongTimeString()) > 0)
             {
